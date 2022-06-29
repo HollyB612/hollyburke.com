@@ -1,0 +1,789 @@
+/*
+Theme Name: Constructpress Child
+Author: Template_path
+Version: 1.0.0
+Author URI: http://themeforest.net/user/template_path
+Theme URI: http://themeforest.net/user/template_path
+Description: This is Construction wordpress theme
+License: ''
+License URI: ''
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, custom-header, custom-menu, editor-style, featured-images, rtl-language-support, sticky-post, translation-ready, microformats
+Text Domain: wp_constructpress
+Template: constructpress
+*/
+
+/* @import url(../constructpress/style.css); */
+
+
+/* Homepage Styles Begin */
+#clients.construct .container .owl-theme .owl-nav div .fa {
+    color: #272424 !important;
+    display: block;
+}
+
+#project-version-one .button-box,
+#project-version-one .hvr-sweep-to-right {
+    display: none;
+}
+
+#project-version-one.construct.home .view-all-btn a:before {
+    background: #d3d4d6;
+}
+
+#great-construct-team p.has-btn a:before {
+    background: #2098d1;
+}
+
+#clients .container .owl-theme .owl-nav div {
+    background: none;
+    display: block;
+}
+
+#project-version-one.construct.home {
+    background: #e5e5e5;
+}
+
+#project-version-one.construct.home .view-all-btn a {
+    border: 1px solid #0a5ba8;
+    color: #0a5ba8;
+    font-weight: bold;
+}
+
+#project-version-one.construct.home .section-title h1 {
+    color: #000000;
+}
+
+#project-version-one.construct.home .gallery-filter li span {
+
+    border: 1px solid #acacac;
+    color: #5b5a5a;
+    background: none;
+}
+
+#project-version-one.construct.home .gallery-filter li.active span,
+#project-version-one.construct.home .gallery-filter li:hover span {
+    color: #FFF;
+    border: 1px solid #f36f2a;
+    background: #f36f2a;
+}
+
+.container.container-home {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contact-us-row p {
+    color: #fff !important;
+}
+
+#contact-content {
+    padding: 3rem 0;
+}
+
+#contact-content .section-title p {
+    font-size: 16px;
+}
+
+.contact-us-row p b {
+    color: #fff !important;
+    font-style: normal !important;
+    font-size: 3rem !important;
+    font-family: 'Raleway', sans-serif !important;
+}
+
+.contact-us-row .hvr-bounce-to-right {
+    color: #fff !important;
+    background: #0054a4 !important;
+    border: none !important;
+    font-style: normal !important;
+
+}
+
+/* Homepage Styles End */
+
+/* Testimonials Row Styles Begin */
+
+#testimonials-construct-home {
+    background: none;
+}
+
+#testimonials-construct-home .section-title h1 {
+    color: #fff;
+}
+
+#testimonials-construct-home .single-testimonial-construct h3 {
+    background: #f36f2a;
+}
+
+/* Testimonials Row Styles End */
+
+/*Button Styles Begin*/
+
+.blue-button .vc_btn3-color-primary {
+    font-weight: bold;
+    color: #2262a2 !important;
+    border-color: #2262a2 !important;
+}
+
+.blue-button .vc_btn3-color-primary:hover {
+    color: #fff !important;
+    background: #2262a2 !important;
+}
+
+.orange-button .vc_btn3 {
+    color: #fff !important;
+    background: #f36f2a !important;
+    font-weight: bold;
+}
+
+.orange-button .vc_btn3:hover {
+    color: #fff !important;
+    background: #d45c1d !important
+}
+
+.blue-button-solid .vc_btn3 {
+    font-weight: bold;
+    color: #fff !important;
+    background: #2262a2 !important;
+}
+
+.blue-button-solid .vc_btn3:hover {
+    color: #fff !important;
+    background: #4685c3 !important;
+}
+
+/*Button Styles End*/
+
+/*List Styles Begin*/
+
+.blue-list {
+    padding: 1rem 0 1rem 2rem;
+}
+
+.blue-list li {
+    color: #2262a2;
+    font-size: 1.8rem;
+    padding-bottom: 1rem;
+    list-style: disc;
+    font-weight: 600px;
+}
+
+/*List Styles End*/
+
+/* Header Styles Begin */
+#topbar.construct .contact-info ul li a:hover {
+    color: #f36f2a;
+}
+
+#topbar.construct .contact-info ul li a i {
+    color: #f36f2a !important;
+}
+
+.construct.header-curvy .logo img {
+    padding: 9px 0;
+}
+
+header.construct.header-curvy {
+    background: #0054a4 url(/wp-content/themes/constructpress/img/resources/header-v5-bg.png) no-repeat 0 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+header.construct.header-curvy .logo:before {
+    content: ' ';
+    width: 2000px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 110%;
+    background: #f36f2a url(/wp-content/themes/constructpress/img/resources/header-v5-bg.png) no-repeat 0 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    z-index: 9999;
+    transform: skewX(-45deg);
+}
+
+/* Header Styles End */
+
+/*Footer Styles Begin*/
+
+footer a:hover {
+    color: #f36921 !important;
+}
+
+#menu-footer-menu li a {
+    color: #e2e2e2;
+}
+
+#menu-footer-menu li a:before {
+    font-family: 'FontAwesome';
+    content: '\f105';
+    color: #f36921;
+    font-size: 14px;
+    line-height: 14px;
+    margin-right: 15px;
+    transition: all .3s ease;
+}
+
+footer.construct .widget h3 {
+    color: #f36921;
+}
+
+footer.construct .widget .contact-info li .fa {
+    color: #f36921;
+}
+
+footer.construct span,
+footer.construct .widget p {
+    color: #e2e2e2;
+}
+
+footer.construct .widget .our-services li a {
+    color: #e2e2e2;
+}
+
+footer.construct .widget .our-services li a :hover {
+    color: #f36921;
+}
+
+footer.construct .widget .our-services li a:before {
+    color: #f36921;
+}
+
+/*Footer Styles End*/
+
+/*Interior Page headers Begin*/
+#page-title {
+    background: url(/wp-content/uploads/2017/02/contact-header.png) center center no-repeat;
+    background-size: cover;
+    margin-bottom: 3rem;
+}
+
+.page-id-6 #page-title {
+    background: url(/wp-content/uploads/2017/02/about-us-header.png) center center no-repeat;
+    background-size: cover;
+}
+
+.page-id-618 #page-title {
+    background: url(/wp-content/uploads/2017/02/inventory-header.png) center center no-repeat;
+    background-size: cover;
+}
+
+.page-id-604 #page-title {
+    background: url(/wp-content/uploads/2017/02/why-jamco-header.png) center center no-repeat;
+    background-size: cover;
+}
+
+.page-id-639 #page-title {
+    background: url(/wp-content/uploads/2017/02/featured-header.png) center center no-repeat;
+    background-size: cover;
+}
+
+.page-id-650 #page-title {
+    background: url(/wp-content/uploads/2017/02/indoor-outdoor-header.png) center center no-repeat;
+    background-size: cover;
+}
+
+.page-id-660 #page-title {
+    background: url(/wp-content/uploads/2017/02/electric-propane-header.png) center center no-repeat;
+    background-size: cover;
+}
+
+.page-id-742 #page-title {
+    background: url(/wp-content/uploads/2017/02/location-header.png) center center no-repeat;
+    background-size: cover;
+}
+
+.page-id-710 #page-title,
+.page-id-30 #page-title,
+.page-id-690 #page-title {
+    margin-bottom: 0;
+}
+
+/*Interior Page headers End*/
+
+/*interior Page Styles Begin*/
+.inventory-link:hover {
+    color: #d8d8d7 !important;
+}
+
+.image-column .vc_column-inner {
+    padding: 0 !important;
+}
+
+/*interior Page Styles End*/
+
+/*Contact Page Styles Begin*/
+
+#contact-content .contact-info ul li .icon-box i {
+    border: 1px solid #f6691f;
+    color: #f6691f;
+}
+
+#contact-content .contact-info ul li .text-box p {
+    color: black;
+}
+
+/*Contact Page Styles End*/
+
+/*Gravity Form Styles Begin*/
+
+#gform_submit_button_3,
+#gform_submit_button_5 {
+    border: medium none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 40px;
+    outline: medium none;
+    background: #2e2e2e none repeat scroll 0 0;
+    padding: 0 24px;
+    text-transform: uppercase;
+    width: auto !important;
+}
+
+.gform_wrapper.standard-form_wrapper {
+    margin-top: 0 !important;
+}
+
+#field_1_1,
+#field_1_2 {
+    margin-top: 0;
+}
+
+#input_1_1,
+#input_1_2 {
+    margin-top: 0 !important;
+}
+
+.gfield_label {
+    display: none !important;
+}
+
+body .gform_wrapper .top_label div.ginput_container {
+    margin-top: 0 !important;
+}
+
+.gform_button {
+    background: #f36f2a !important;
+}
+
+.gform_button:hover {
+    background: #d45c1d !important
+}
+
+.plain-form input,
+.plain-form textarea,
+.plain-form select {
+    border: 1px solid #e9e9e9 !important;
+}
+
+.plain-form .gform_wrapper .gform_footer input[type=submit] {
+    border: medium none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 40px;
+    outline: medium none;
+    background: #2e2e2e none repeat scroll 0 0;
+    padding: 0 24px;
+    text-transform: uppercase;
+    width: auto !important;
+    height: 50px;
+}
+
+/*Gravity Form Styles End*/
+
+/*Reserve lift form styles begin*/
+
+.reserve-form_wrapper .gform_page_footer {
+    text-align: center;
+    width: 100% !important;
+}
+
+#field_5_20,
+#field_5_13 {
+    text-align: center;
+}
+
+#input_5_13 {
+    margin-top: 1.8rem !important;
+}
+
+.ui-datepicker-title select {
+    color: #000000;
+}
+
+#choice_5_13_1 {
+    margin-top: 0 !important;
+}
+
+#label_3_13_1 {
+    padding-top: .5rem;
+}
+
+.medium.gfield_select {
+    padding: .8rem 0 !important;
+}
+
+.gform_wrapper .top_label li ul.gfield_radio {
+    text-align: center;
+}
+
+.gform_wrapper.reserve-form_wrapper ul.gfield_radio li {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+}
+
+.gform_wrapper.reserve-form_wrapper ul.gfield_radio li input {
+    display: none;
+}
+
+.gform_wrapper.reserve-form_wrapper ul.gfield_radio li img {
+    border: 5px solid #f1f1f1;
+    pointer-events: none;
+    display: inline;
+}
+
+
+
+#gform_next_button_3_7,
+.gform_next_button {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    background: #0055a4 !important;
+    line-height: 40px;
+    outline: medium none;
+    background: #2e2e2e none repeat scroll 0 0;
+    padding: 0 24px;
+    text-transform: uppercase;
+    width: auto !important;
+    display: none !important;
+}
+
+#gform_next_button_3_7:hover {
+    background: #1b5f9e !important;
+}
+
+#gf_step_3_1 {
+    margin: 17px 8px 16px 10px;
+}
+
+#gf_step_3_2 {
+    margin: 17px 8px 16px 10px;
+}
+
+.outdoor-left.active,
+.outdoor-right.active,
+.propane-left.active,
+.propane-right.active,
+.lift-left.active,
+.lift-right.active {
+    border: 5px solid #05529c !important;
+}
+
+.ginput_container_radio {
+    border-bottom: 1px dotted #CCC;
+}
+
+.gform_wrapper .gform_page_footer {
+    border-top: none !important;
+}
+
+.gform_wrapper.reserve-form_wrapper ul.gfield_radio li img:hover {
+    border: 5px solid #439cf1 !important;
+}
+
+.gform_wrapper .gf_page_steps {
+    text-align: center;
+    padding-bottom: 2rem !important;
+}
+
+.gform_wrapper .gf_step span.gf_step_number {
+    border: 1px solid #b5b5b5;
+    border-radius: 100%;
+    padding: 1rem 1.5rem;
+}
+
+.gform_wrapper .gf_step .gf_step_number {
+    background: #dddcdc;
+    color: #525252;
+}
+
+.gform_wrapper .gf_step.gf_step_active .gf_step_number {
+    background: #b5b5b5;
+    color: #fff;
+}
+
+/*Reserve lift form styles end*/
+
+/*Main Navigation Styles Begin*/
+
+header nav.mainmenu-container ul>li>ul>li>a {
+    border-bottom: 1px solid #2A2A2A;
+    color: #ffffff;
+}
+
+#menu-item-714 .submenu {
+    width: 240px;
+}
+
+header.construct.header-curvy .mainmenu-container ul li a:hover {
+    background: #2675c1;
+}
+
+header.construct.header-curvy .mainmenu-container>ul>li.current>a,
+header.construct.header-curvy .mainmenu-container ul li a:hover {
+    color: #f36f2a;
+}
+
+.mainmenu-container ul>li>ul {
+    background: #07549e;
+}
+
+header .mainmenu-container ul.mainmenu li a {
+    color: #ffffff !important;
+}
+
+/*Main Navigation Styles End*/
+
+
+/*Slider styling begin*/
+
+.vc_images_carousel.vc_per-view-more .vc_carousel-slideline .vc_carousel-slideline-inner>.vc_item>.vc_inner {
+    margin: 0 10px;
+    text-align: center;
+}
+
+.vc_images_carousel .vc_left.vc_carousel-control {
+    left: -2rem;
+}
+
+.vc_slide.vc_images_carousel .vc_carousel-control.vc_right {
+    right: -2rem;
+}
+
+/*Slider styling end*/
+
+
+/*Blog Styling Begin*/
+
+.comment-box {
+    display: none;
+}
+
+#blog-post article .shear_area .shear a {
+    cursor: default;
+}
+
+.meta.blog-cats li {
+    display: none !important;
+}
+
+#blog-post {
+    padding: 40px 0;
+}
+
+/*Blog Styling End*/
+
+
+/*Apple Fixes Begin */
+
+#great-construct-team p.has-btn a {
+    -webkit-appearance: none;
+}
+
+/*Apple Fixes End */
+
+
+/*Mobile Styles Begin*/
+
+@media only screen and (max-width: 1440px) {
+    footer.construct .widget img.positioned {
+        max-width: 100% !important;
+    }
+}
+
+
+@media only screen and (max-width: 991px) {
+    #blog-post .blog-left.pull-right .sidebar-widget {
+        padding-left: 0;
+    }
+
+    .ui-datepicker-calendar td:before {
+        display: none !important;
+    }
+
+    footer.construct .widget img.positioned {
+        width: 70% !important;
+        float: none;
+    }
+
+    .location-image img {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .mobile-tablet-hide {
+        display: none
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    footer .col-xs-6.widget {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 35px;
+    }
+
+    #field_5_20,
+    #field_5_13 {
+        text-align: initial;
+    }
+
+    .vc_column-inner.vc_custom_1487802109146 {
+        margin-top: 0;
+    }
+
+    .vc_align_center.vc_custom_1488229915986 {
+        padding-bottom: 3rem !important;
+    }
+
+    .wpb_column .vc_column-inner.vc_custom_1487861250229,
+    .wpb_column .vc_column-inner.vc_custom_1487861250229 {
+        margin-top: 3rem !important;
+    }
+
+    .vc_align_center.vc_custom_1488230160685,
+    .vc_align_center.vc_custom_1487803017372 {
+        padding-bottom: 3rem !important;
+    }
+
+    .vc_align_center.vc_custom_1488230051336,
+    .vc_align_center.vc_custom_1488575659463 {
+        padding-top: 3rem !important;
+    }
+
+    .vc_column-inner.vc_custom_1487802109146 {
+        padding-top: 0 !important;
+    }
+
+    .gform_wrapper.reserve-form_wrapper ul.gfield_radio li {
+        width: 50%;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .mobile-hide {
+        display: none !important;
+    }
+
+    .mobile-center .vc_column-inner {
+        margin: 0 !important;
+        text-align: center !important;
+        padding-top: 0rem !important;
+    }
+
+
+    .mobile-center .vc_column-inner h2 {
+        font-size: 4.5rem !important;
+        text-align: center !important;
+        margin-top: 0 !important;
+    }
+
+    .mobile-center .vc_column-inner .vc_btn3-container {
+        text-align: center !important;
+    }
+
+    .mobile-center .vc_custom_1487862624051,
+    .mobile-center .vc_custom_1487863168157 {
+        margin-top: -5rem !important;
+    }
+
+    .vc_column-inner.vc_custom_1487861241662,
+    .vc_column-inner.vc_custom_1487861250229,
+    .vc_column-inner.vc_custom_1487861241662,
+    .vc_column-inner.vc_custom_148786125022 {
+        margin: 0 !important;
+    }
+
+    .vc_column-inner.vc_custom_1488490152336 {
+        padding: 0 !important;
+        text-align: center !important;
+        margin: 0 auto !important;
+    }
+
+    .vc_custom_1488490152336 ul {
+        padding: 0 !important;
+        list-style: none !important;
+    }
+
+    .vc_custom_1488490152336 li {
+        list-style: none !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    #topbar.construct .contact-info ul li a {
+        display: block;
+    }
+
+    .vc_custom_1488829731673 {
+        padding-left: 3rem !important;
+    }
+
+    .gform_wrapper .gf_step {
+        width: 10% !important;
+        display: inline-block !important;
+    }
+
+    #input_1_1,
+    #input_1_2 {
+        margin-top: 16px !important;
+    }
+
+    .vc_custom_1487885579618 {
+        padding-left: 15px !important;
+    }
+
+    .single-testimonial-construct .img-holder {
+        margin-top: 1.5rem !important;
+    }
+
+    .contact-us-row .col-lg-6 {
+        text-align: center;
+    }
+
+    .contact-us-row .has-btn b {
+        margin-bottom: 2rem;
+        display: block;
+    }
+
+    .mobile-text {
+        font-size: 2.2rem !important;
+    }
+
+    .vc_custom_1489439687936 li {
+        display: block !important;
+    }
+
+    .vc_custom_1489440260748,
+    .vc_custom_1489439449545 .wpb_text_colum.wpb_content_element,
+    .vc_custom_1489438683349 .wpb_text_colum.wpb_content_element {
+        margin-bottom: 0 !important;
+    }
+
+    .page-breadcumb.pull-right {
+        display: none;
+    }
+
+    footer.construct .widget img.positioned {
+        width: 100% !important;
+    }
+}
+
+/*Mobile Styles End*/
