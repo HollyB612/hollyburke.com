@@ -1,0 +1,30 @@
+TYSWidget14906 = new function() {
+  var BASE_URL = 'https://toyoursuccess.com';
+  var CONTENT_URL = BASE_URL + '/reviews/content:4906:1::';
+  var ROOT = 'tys_widget1_4906';
+
+  function requestContent() {
+    url = CONTENT_URL;
+
+    var script = document.createElement('script');
+    script.src = url;
+
+    document.getElementsByTagName('head')[0].appendChild(script);
+  }
+
+  this.popup = function (url) {
+    var newwindow = window.open(url,'tys_popup','height=720,width=1000,resizable,scrollbars=yes');
+    if (window.focus) {newwindow.focus()}
+    return false;
+  }
+
+  this.serverResponse = function( data ) {
+    if (!data) return;
+    var div = document.getElementById(ROOT);
+    div.innerHTML = data[0];  // assign new HTML into #ROOT
+    div.style.display = 'block'; // make element visible
+  }
+
+  document.write("<div id='" + ROOT + "' style='display: none'></div>");
+  requestContent();
+}
