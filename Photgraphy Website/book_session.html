@@ -1,0 +1,173 @@
+<! DOCTYPE html>
+<head>
+<title>Book a Session</title>
+<link href='https://fonts.googleapis.com/css?family=Allura' rel='stylesheet'>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+font-family: 'Allura';
+font-size: 40px;
+color: #2E2A8E;
+}
+.topnav {
+  overflow: hidden;
+ display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  
+  list-style: none;
+  margin: 0; 
+}
+.topnav a {
+  float: none;
+  color: #2E2A8E;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+input[type=submit]::before,
+input[type=submit]::after {
+        content: "";
+        position: absolute;
+        z-index: -1;
+      }
+      input[type=submit]:hover {
+        background-color: #29f2e4;
+	color: black;
+      }
+input[type=submit] {
+        background: none;
+        border: 4px solid #2E2A8E;
+        border-radius: 10px;
+        color: #2E2A8E;
+        display: block;
+        font-weight: bold;
+        margin: 5px auto;
+        padding: 1em 3em;
+        position: relative;
+        text-transform: uppercase;
+      }
+@media all and (max-width: 800px) {
+  .topnav {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .topnav {
+    flex-flow: column wrap;
+    padding: 0;
+  }
+  .topnav a { 
+    text-align: center; 
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255,0.3); 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+  }
+}
+#scroll-container {
+  overflow: hidden;
+}
+
+#scroll-text {
+  /* animation properties */
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  
+  -moz-animation: my-animation 25s linear infinite;
+  -webkit-animation: my-animation 25s linear infinite;
+  animation: my-animation 17s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from { -moz-transform: translateX(100%); }
+  to { -moz-transform: translateX(-100%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateX(100%); }
+  to { -webkit-transform: translateX(-100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+</style>
+<script>
+  function submit() {
+    alert("Thank you for requesting a booking, we will be in touch to finalize details");
+  }
+</script>
+</head>
+<body>
+<div class="topnav">
+<br>
+  <a href="capturesforever.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="services.html">Services</a>
+  <a href="events.html">Events</a>
+  <a href="packages.html">Packages</a>
+  <a href="place_order.html">Place Order</a>
+  <a href="gallery.html">Photo Gallery</a>
+  <a class="active" href="book_session.html">Book Session</a>
+</div>
+   
+<br>
+<div id="scroll-container" style="background-color:#008416"> <br><h3 id="scroll-text" style="color: white;">10% off ANY Senior Session Booked Before March 15th</h3><br></div>
+<center><h2>Book a Session</h2></center>
+<div>
+<center>
+<label>First Name: </label>
+<input type="text" name="first_name"><br><br>
+<label>Last Name: </label>
+<input type="text" name="last_name"><br><br>
+<label>Email: </label>
+<input type="text" name="email"><br><br>
+<label>Phone: </label>
+<input type="text" name="phone"><br><br>
+<p>What kind of Session?</p>
+<input type="radio" name="senior">Senior</input>
+<input type="radio" name="newborn">Newborn</input>
+<input type="radio" name="family">Family</input>
+<input type="radio" name="headshots">Professional Headshots</input>
+<input type="radio" name="sports">Sports/Hobbies</input>
+<input type="radio" name="shows">Performances/Ceremonies</input>
+<input type="radio" name="prom">Prom/Homecoming</input>
+<input type="radio" name="parties">Parties</input>
+<input type="radio" name="wedding">Wedding</input><br><br>
+<input type="radio" name="other">Other</input>
+<input type="textarea"></input><br><br>
+<p>How many people?</p>
+  <p>**Price can vary for large & small groups</p>
+  <input type="text" name="people"><br><br>
+<p>In Studio or On Location?</p>
+<p>**Price can vary depending on how far we have to travel</p>
+  <input type="radio" name="studio">Our Studio</input><br><br>
+  <input type="radio" name="location">On Location</input>
+    <input type="textarea"></input><br><br>
+<p>How long?</p>
+<p>**Price can vary for duration of session</p>
+<input type="text" name="people"><br><br>
+<input id="submit" type="submit" value="Submit" onClick="submit()"><br><br>
+</center>
+</div>
+</body>
+</html>

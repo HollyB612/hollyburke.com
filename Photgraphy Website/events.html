@@ -1,0 +1,263 @@
+<! DOCTYPE html>
+<head>
+<title>Events</title>
+<link href='https://fonts.googleapis.com/css?family=Allura' rel='stylesheet'>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+font-family: 'Allura';
+font-size: 40px;
+color: #2E2A8E;
+}
+.topnav {
+  overflow: hidden;
+ display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  
+  list-style: none;
+  margin: 0; 
+}
+.topnav a {
+  float: none;
+  color: #2E2A8E;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.contact {
+  background-color: #2E2A8E;
+  color: white;
+}
+.contact h2 {
+  color: white;
+}
+* {
+   box-sizing: border-box;
+}
+.outer-grid {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 0 4px;
+}
+.inner-grid {
+   flex: 25%;
+   max-width: 25%;
+   padding: 0 4px;
+}
+.inner-grid img {
+   margin-top: 8px;
+   width: 100%;
+   padding: 10px;
+}
+@media screen and (max-width: 800px) {
+   .inner-grid {
+      flex: 50%;
+      max-width: 50%;
+   }
+}
+@media screen and (max-width: 600px) {
+   .inner-grid {
+      flex: 100%;
+      max-width: 100%;
+   }
+}
+.button {
+        background: none;
+        border: 4px solid white;
+        border-radius: 10px;
+        color: white;
+        display: block;
+        font-weight: bold;
+        margin: 5px auto;
+        padding: 1em 3em;
+        position: relative;
+        text-transform: uppercase;
+      }
+     button::before,
+      button::after {
+        content: "";
+        position: absolute;
+        z-index: -1;
+      }
+      button:hover {
+        background-color: #29f2e4;
+	color: black;
+      }
+      .button1 {
+        border:4px solid #2E2A8E;
+        color:#2E2A8E;
+      }
+      input[type=submit]::before,
+input[type=submit]::after {
+        content: "";
+        position: absolute;
+        z-index: -1;
+      }
+      input[type=submit]:hover {
+        background-color: #29f2e4;
+	color: black;
+      }
+input[type=submit] {
+        background: none;
+        border: 4px solid white;
+        border-radius: 10px;
+        color: white;
+        display: block;
+        font-weight: bold;
+        margin: 5px auto;
+        padding: 1em 3em;
+        position: relative;
+        text-transform: uppercase;
+      }
+@media all and (max-width: 800px) {
+  .topnav {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .topnav {
+    flex-flow: column wrap;
+    padding: 0;
+  }
+  .topnav a { 
+    text-align: center; 
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255,0.3); 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+  }
+}
+#scroll-container {
+  overflow: hidden;
+}
+
+#scroll-text {
+  /* animation properties */
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  
+  -moz-animation: my-animation 25s linear infinite;
+  -webkit-animation: my-animation 25s linear infinite;
+  animation: my-animation 17s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from { -moz-transform: translateX(100%); }
+  to { -moz-transform: translateX(-100%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateX(100%); }
+  to { -webkit-transform: translateX(-100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+</style>
+<script>
+  function submit() {
+    alert("Thank you for submitting your question, we will get back to you as soon as possible");
+  }
+</script>
+</head>
+<body>
+<div class="topnav">
+<br>
+  <a href="capturesforever.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="services.html">Services</a>
+  <a class="active" href="events.html">Events</a>
+  <a href="packages.html">Packages</a>
+  <a href="place_order.html">Place Order</a>
+  <a href="gallery.html">Photo Gallery</a>
+  <a href="book_session.html">Book Session</a>
+</div>
+   
+<br>
+<div id="scroll-container" style="background-color:#008416"> <br><h3 id="scroll-text" style="color: white;">10% off ANY Senior Session Booked Before March 15th</h3><br></div>
+<center><h2>Events</h2>
+<h2>&nbsp; Graduations &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Recitals &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sports Games</h2>
+<h2>&nbsp;&nbsp; Weddings &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Birthday Parties &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prom/Homecoming &nbsp;&nbsp;&nbsp;&nbsp; Award Ceremonies</h2></center>
+<div style="background-color:#2E2A8E">
+  <br>
+<div class="outer-grid">
+  <div class="inner-grid">
+      <img src="events/_DSC1884.jpg" alt="Dance Group Photo">
+    </div>
+  <div class="inner-grid">
+      <img src="events/_DSC1194.jpg" alt="Photobooth Girls">
+     
+  </div>
+  <div class="inner-grid">
+      <img src="events/_DSC6660.jpg" alt="Dance Group On Stage">
+  </div>
+  <div class="inner-grid">
+    <img src="events/_DSC1657.jpg" alt="Softball Player">
+    </div>
+  </div>
+  <br>
+<a href="book_session.html"><center><button class="button">Book Your Session</button></center></a>
+<br>
+<br>
+</div>
+<br>
+<div class="outer-grid">
+  <div class="inner-grid">
+      <img src="events/DSC_1377.jpg" alt="Stage Dancers">
+      <img src="events/_DSC4122.jpg" alt="Stage Dancers">
+    </div>
+  <div class="inner-grid">
+      <img src="events/_DSC6642.jpg" alt="Preschooler Graduation">
+      <img src="events/DSC_1343.jpg" alt="Party Girls">
+  </div>
+  <div class="inner-grid">
+    <img src="events/DSC_1340.jpg" alt="Mom and Daughters">
+    <img src="events/DSC_5868 copy.jpg" alt="Mom and Daughters">
+  </div>
+  <div class="inner-grid">
+      <img src="events/DSC_5873 copy.jpg" alt="Band Kid">
+      <img src="events/_DSC6469.jpg" alt="Dance Picture">
+    </div>
+  </div>
+  <br>
+  <a href="gallery.html"><center><button class="button button1">More Photos</button></center></a>
+<br>
+<div class="contact">
+  <br>
+    <center><h2>Have Questions</h2>
+    <h4>Phone: 321 123-1234 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Email: 123@gmail.com</h4><br>
+    <label>First Name: </label>
+    <input type="text" name="first_name"><br><br>
+    <label>Last Name: </label>
+    <input type="text" name="last_name"><br><br>
+    <label>Email: </label>
+    <input type="text" name="email"><br><br>
+    <label>Phone: </label>
+    <input type="text" name="phone"><br><br>
+    <label>Message: </label>
+    <textarea name="message" rows="4" cols="50"></textarea><br><br>
+    <input id="submit" type="submit" value="Submit" onClick="submit()"><br><br>
+    </center>
+  </div>
+</body>
+</html>
